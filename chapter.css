@@ -1,0 +1,95 @@
+/* eb-garamond-latin-400-normal */
+@font-face {
+    font-family: 'EB Garamond';
+    font-style: normal;
+    font-display: swap;
+    font-weight: 400;
+    src: url(./SandArtefacteNummern.woff2) format('woff2'), url(./SandArtefacteNummern.woff) format('woff');
+    unicode-range: U+E000-E00D;
+}
+
+body {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+    text-size-adjust: 100%;
+    background-color: var(--pico-background-color);
+    color: var(--pico-color);
+    font-weight: var(--pico-font-weight);
+    font-size: var(--pico-font-size);
+    line-height: var(--pico-line-height);
+    font-family: var(--pico-font-family);
+    text-underline-offset: var(--pico-text-underline-offset);
+    text-rendering: optimizeLegibility;
+    overflow-wrap: break-word;
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+}
+
+section {
+    font-family: 'EB Garamond';
+
+    strong {
+        font-weight: 800;
+    }
+
+    h1 {
+        font-family: 'Caesar Dressing';
+    }
+}
+
+* {
+    box-sizing: content-box;
+}
+
+header {
+    float: left;
+}
+
+
+a.next {
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    justify-content: center;
+    gap: 4px;
+    justify-self: start;
+
+    text-decoration: none;
+    background: none;
+
+
+    background-color: var(--pico-card-background-color);
+
+    padding: 1rem 3rem;
+    border-radius: 3rem;
+
+    transition: all 0.2s ease-in-out;
+    border: 1px solid var(--pico-card-background-color);
+
+    &:hover {
+        border: 1px solid var(--pico-primary);
+    }
+
+    &:active {
+        border: 1px solid var(--pico-primary-hover);
+    }
+
+    margin: 4rem 0;
+
+    svg {
+        transition: all 0.2s ease-in-out;
+        height: 48px;
+    }
+}
+
+section>svg {
+    width: 55%;
+}
+
+@media (max-width: 760px) {
+    section>svg {
+        width: 100%;
+    }
+}

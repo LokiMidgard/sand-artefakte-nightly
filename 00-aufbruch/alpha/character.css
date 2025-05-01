@@ -1,0 +1,443 @@
+
+                  
+            @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+            }
+
+            .thought,
+            .speech{
+                color: green;
+                animation: blinker 1s linear infinite;
+            }
+            
+
+                .fay.thought,
+                .fay.speech
+                {
+                    color: #af6100;
+                    animation: none;
+                    }
+            
+
+                .nano.thought,
+                .nano.speech
+                {
+                    color: #00814f;
+                    animation: none;
+                    }
+            
+
+                .mindmachine.thought,
+                .mindmachine.speech
+                {
+                    color: #ea0d38;
+                    animation: none;
+                    }
+            
+
+                .dio.thought,
+                .dio.speech
+                {
+                    color: #6D22CB;
+                    animation: none;
+                    }
+            
+
+                .ren.thought,
+                .ren.speech
+                {
+                    color: #265AC9;
+                    animation: none;
+                    }
+            
+
+                .pho.thought,
+                .pho.speech
+                {
+                    color: #A918C8;
+                    animation: none;
+                    }
+            
+
+                .tia.thought,
+                .tia.speech
+                {
+                    color: #DF1587;
+                    animation: none;
+                    }
+            
+
+                .text.thought,
+                .text.speech
+                {
+                    color: #000000;
+                    animation: none;
+                    }
+            
+
+                .alekos.thought,
+                .alekos.speech
+                {
+                    color: #418000;
+                    animation: none;
+                    }
+            
+
+                .priesterin.thought,
+                .priesterin.speech
+                {
+                    color: #9c627f;
+                    animation: none;
+                    }
+            
+
+                .general.thought,
+                .general.speech
+                {
+                    color: #264910;
+                    animation: none;
+                    }
+            
+
+                .adjutant.thought,
+                .adjutant.speech
+                {
+                    color: #687580;
+                    animation: none;
+                    }
+            
+
+                .elektra.thought,
+                .elektra.speech
+                {
+                    color: #d43a44;
+                    animation: none;
+                    }
+            
+
+                .aris.thought,
+                .aris.speech
+                {
+                    color: #7c701c;
+                    animation: none;
+                    }
+            
+
+                .böser-soldat.thought,
+                .böser-soldat.speech
+                {
+                    color: #008100;
+                    animation: none;
+                    }
+            
+
+                .nikandros.thought,
+                .nikandros.speech
+                {
+                    color: #365086;
+                    animation: none;
+                    }
+            
+
+                .nickandros.thought,
+                .nickandros.speech
+                {
+                    color: #4f0f05;
+                    animation: none;
+                    }
+            
+
+                .karlos.thought,
+                .karlos.speech
+                {
+                    color: #646bbf;
+                    animation: none;
+                    }
+            
+
+                .callyn.thought,
+                .callyn.speech
+                {
+                    color: #0c7c96;
+                    animation: none;
+                    }
+            
+
+                .c0 .soldat1.thought,
+                .c0 .soldat1.speech
+                {
+                    color: #6667b5;
+                    animation: none;
+                    }
+            
+
+                .c0 .soldat2.thought,
+                .c0 .soldat2.speech
+                {
+                    color: #df2600;
+                    animation: none;
+                    }
+            
+
+                .c0 .junge1.thought,
+                .c0 .junge1.speech
+                {
+                    color: #9f52b9;
+                    animation: none;
+                    }
+            
+
+                .c0 .junge2.thought,
+                .c0 .junge2.speech
+                {
+                    color: #b95734;
+                    animation: none;
+                    }
+            
+
+                .c0 .tor.thought,
+                .c0 .tor.speech
+                {
+                    color: #eb0007;
+                    animation: none;
+                    }
+            
+
+                .c0 .soldat4.thought,
+                .c0 .soldat4.speech
+                {
+                    color: #c535b9;
+                    animation: none;
+                    }
+            
+
+                .c0 .soldat5.thought,
+                .c0 .soldat5.speech
+                {
+                    color: #cd00d3;
+                    animation: none;
+                    }
+            
+
+                .c3 .junge.thought,
+                .c3 .junge.speech
+                {
+                    color: #008800;
+                    animation: none;
+                    }
+            
+
+                .c4 .unbekannter1.thought,
+                .c4 .unbekannter1.speech
+                {
+                    color: #d73200;
+                    animation: none;
+                    }
+            
+
+                .c7 .unbekannte.thought,
+                .c7 .unbekannte.speech
+                {
+                    color: #517648;
+                    animation: none;
+                    }
+            
+
+            @media (prefers-color-scheme: dark) {
+                
+
+                .fay.thought,
+                .fay.speech{
+                    color: #FFB118;
+                }
+            
+
+                .nano.thought,
+                .nano.speech{
+                    color: #13C795;
+                }
+            
+
+                .mindmachine.thought,
+                .mindmachine.speech{
+                    color: #fe214c;
+                }
+            
+
+                .dio.thought,
+                .dio.speech{
+                    color: #a95eff;
+                }
+            
+
+                .ren.thought,
+                .ren.speech{
+                    color: #4e82f1;
+                }
+            
+
+                .pho.thought,
+                .pho.speech{
+                    color: #d140f0;
+                }
+            
+
+                .tia.thought,
+                .tia.speech{
+                    color: #f3299b;
+                }
+            
+
+                .text.thought,
+                .text.speech{
+                    color: #ffffff;
+                }
+            
+
+                .alekos.thought,
+                .alekos.speech{
+                    color: #b9f82e;
+                }
+            
+
+                .priesterin.thought,
+                .priesterin.speech{
+                    color: #d89ebb;
+                }
+            
+
+                .general.thought,
+                .general.speech{
+                    color: #6c8f56;
+                }
+            
+
+                .adjutant.thought,
+                .adjutant.speech{
+                    color: #9aa7b2;
+                }
+            
+
+                .elektra.thought,
+                .elektra.speech{
+                    color: #fc626c;
+                }
+            
+
+                .aris.thought,
+                .aris.speech{
+                    color: #eade8a;
+                }
+            
+
+                .böser-soldat.thought,
+                .böser-soldat.speech{
+                    color: #2ff917;
+                }
+            
+
+                .nikandros.thought,
+                .nikandros.speech{
+                    color: #6882b8;
+                }
+            
+
+                .nickandros.thought,
+                .nickandros.speech{
+                    color: #b37369;
+                }
+            
+
+                .karlos.thought,
+                .karlos.speech{
+                    color: #a0a7fb;
+                }
+            
+
+                .callyn.thought,
+                .callyn.speech{
+                    color: #52c2dc;
+                }
+            
+
+                .c0 .soldat1.thought,
+                .c0 .soldat1.speech{
+                    color: #acadfb;
+                }
+            
+
+                .c0 .soldat2.thought,
+                .c0 .soldat2.speech{
+                    color: #f33a09;
+                }
+            
+
+                .c0 .junge1.thought,
+                .c0 .junge1.speech{
+                    color: #e598ff;
+                }
+            
+
+                .c0 .junge2.thought,
+                .c0 .junge2.speech{
+                    color: #d77552;
+                }
+            
+
+                .c0 .tor.thought,
+                .c0 .tor.speech{
+                    color: #ff111b;
+                }
+            
+
+                .c0 .soldat4.thought,
+                .c0 .soldat4.speech{
+                    color: #ed5de1;
+                }
+            
+
+                .c0 .soldat5.thought,
+                .c0 .soldat5.speech{
+                    color: #e10de7;
+                }
+            
+
+                .c3 .junge.thought,
+                .c3 .junge.speech{
+                    color: #34f65b;
+                }
+            
+
+                .c4 .unbekannter1.thought,
+                .c4 .unbekannter1.speech{
+                    color: #f55016;
+                }
+            
+
+                .c7 .unbekannte.thought,
+                .c7 .unbekannte.speech{
+                    color: #c9eec0;
+                }
+            
+            }
+
+
+            .speech::before {
+                content: "»";
+            }
+            .speech::after {
+                content: "«";
+            }
+            .thought{
+                font-style: italic;
+            }
+            .thought::before {
+                content: "›";
+                font-family: 'serif';
+            }
+            .thought::after {
+                content: "‹";
+                font-family: 'serif';
+            }

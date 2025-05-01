@@ -1,0 +1,620 @@
+@property --book-open {
+    syntax: "<angle>";
+    inherits: true;
+    initial-value: 0deg;
+}
+
+@property --book-thickness {
+    syntax: "<length>";
+    inherits: true;
+    initial-value: 0;
+}
+
+body,
+html {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    transform-style: preserve-3d;
+    box-sizing: border-box;
+    ;
+}
+
+:root {
+    --cover-ratio: 0.75;
+    --book-height: 300px;
+
+
+    --book-rotateX: -30deg;
+    --book-rotateY: 30deg;
+    --book-rotateZ: -10deg;
+
+
+    --book-rotateHover: 0deg;
+
+    --book-perspective: 3000px;
+
+    --pages: 400;
+    --book-transitionDuration: .5s ease;
+    --book-radius: 3px;
+    --book-pagesOffset: 3px;
+    --book-bgColor: #01060f;
+
+    --book-page-color: #fff9e7;
+    --book-page-color-shadow: #e0dbcc;
+
+    /* --book-open: 0deg; */
+}
+
+
+*:has(>.book) {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: var(--book-perspective);
+}
+
+@keyframes open {
+    0% {
+        --book-open: 0deg;
+        transform: rotateX(0deg) rotateY(-30deg) rotateZ(0deg);
+    }
+
+    100% {
+        --book-open: 45deg;
+        transform: rotateX(10deg) rotateY(380deg) rotateZ(40deg);
+    }
+
+}
+
+* {
+    transition-duration: 1.5s;
+    transition-timing-function: ease;
+}
+
+
+
+
+.book {
+    width: var(--book-width);
+    height: var(--book-height);
+    position: relative;
+    transform-style: preserve-3d;
+    transition-property: transform, --book-open, --book-width, --book-thickness, --book-height, width, height;
+    transition-duration: 1.5s;
+    transition-timing-function: ease;
+    /* animation: 5s ease 0s infinite open alternate; */
+
+    --book-width: calc(var(--book-height) * var(--cover-ratio));
+    --book-page-height: calc(var(--book-height) - var(--book-pagesOffset) * 2);
+    --book-page-width: calc(var(--book-width) - var(--book-pagesOffset));
+    --book-thickness: calc(var(--book-height) / 6 / 400 * var(--pages));
+
+    * {
+        transition-duration: 1.5s;
+        transition-timing-function: ease;
+    }
+
+
+
+
+    .back {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        transition-property: width, height, transfrorm;
+
+
+        &>img {
+            transition: none;
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            transform: rotateY(180deg);
+        }
+
+        &::after {
+            position: absolute;
+            content: ' ';
+            top: var(--book-pagesOffset);
+            left: 0;
+            width: calc(100% - var(--book-pagesOffset) * 2);
+            height: calc(100% - var(--book-pagesOffset) * 2);
+
+            background-color: var(--book-page-color);
+            transform: translateZ(1px);
+            transition-property: width, height, transfrorm;
+
+        }
+    }
+
+    .spine {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: var(--book-thickness);
+        height: 100%;
+
+        transition-property: height, transfrorm;
+
+        background-color: #000;
+        transform-origin: left center;
+        transform: rotateY(calc(-90deg + var(--book-open) / -2));
+
+        &>img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+        }
+
+        &::after {
+            position: absolute;
+            content: ' ';
+            top: var(--book-pagesOffset);
+            left: 0px;
+            width: calc(var(--book-thickness));
+            height: calc(100% - var(--book-pagesOffset) * 2);
+
+            background-color: var(--book-page-color-shadow);
+            transform: translateZ(-1px);
+            transition-property: width, height, transfrorm;
+
+        }
+    }
+
+    .front {
+        position: absolute;
+        top: 0;
+        left: var(--book-thickness);
+        width: var(--book-width);
+        height: var(--book-height);
+
+        transition-property: width, height, transfrorm;
+
+        background-color: #000;
+        transform-origin: left center;
+        transform: rotateY(calc(90deg - var(--book-open) / 2));
+
+        &>img {
+            width: 100%;
+            height: 100%;
+            object-fit: fill;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+
+
+
+        &::after {
+            position: absolute;
+            content: ' ';
+            top: var(--book-pagesOffset);
+            left: 0px;
+            width: calc(100% - var(--book-pagesOffset) * 2);
+            height: calc(100% - var(--book-pagesOffset) * 2);
+
+            background-color: var(--book-page-color);
+            transform: translateZ(-1px);
+            transition-property: width, height, transfrorm;
+
+        }
+    }
+
+    .effect {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+
+        &::before {
+            content: ' ';
+            width: 90%;
+            height: 100%;
+            position: absolute;
+            border-radius: 3px;
+            background-image: linear-gradient(90deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.2) 100%);
+            top: 0;
+            right: 0;
+            opacity: .1;
+            transition: all .5s ease;
+            -webkit-transition: all .5s ease;
+        }
+
+        &::after {
+            content: ' ';
+            top: 0;
+            left: 0;
+            position: absolute;
+            width: 20px;
+            height: 100%;
+            margin-left: 10px;
+            border-left: 2px solid #00000010;
+            background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0) 100%);
+            transition: all .5s ease;
+        }
+    }
+
+
+    .page {
+        position: absolute;
+        top: var(--book-pagesOffset);
+        left: 0;
+        width: calc(var(--book-page-width) - 1px);
+        height: var(--book-page-height);
+        background-color: var(--book-page-color);
+        background: radial-gradient(circle at 0% 50%, var(--book-page-color-shadow) 0%, var(--book-page-color) 60%);
+
+        transition-property: width, height, transfrorm;
+
+        transform-origin: left center;
+        transform: translateZ(-1px) rotateY(90deg) translateZ(calc((var(--book-thickness) - 2px) / (var(--visible-pages) - 1) * var(--page-index) + 1px)) rotateY(calc(var(--book-open) / 2 - var(--book-open) / (var(--visible-pages) + 1) * (var(--page-index) + 1)));
+
+        transform-style: flat;
+
+        &::after {
+            height: 100%;
+            width: calc(100% - 2px);
+            content: ' ';
+            display: block;
+            box-shadow: 1px 0 2px 0px rgba(102, 102, 102, 0.41);
+            opacity: 01;
+
+
+
+        }
+    }
+
+}
+
+dl {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 1ex;
+    margin: 0;
+    padding: 0;
+
+    align-content: center;
+    justify-content: center;
+
+    dt {
+        font-weight: bold;
+        justify-self: end;
+
+        &::after {
+            content: ':';
+        }
+    }
+
+    dd {
+        margin: 0;
+        padding: 0;
+    }
+
+    .min {
+        justify-self: end;
+
+        &::after {
+            margin-left: 1ex;
+            content: '–';
+        }
+    }
+
+
+    .max {
+        justify-self: start;
+    }
+}
+
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    align-items: center;
+    transition-property: all;
+    justify-content: center;
+
+    &:has(article input.select[type="checkbox"]:checked) {
+        overflow: hidden;
+        padding: 0;
+        gap: 0;
+    }
+}
+
+
+
+article {
+    background-color: var(--pico-background-color);
+    box-shadow: none;
+
+    padding: 30px;
+    transition-property: height, opacity, transform, width;
+    width: 300px;
+    height: 400px;
+
+
+    display: flex;
+
+
+    flex-direction: row;
+    justify-items: start;
+    align-items: center;
+
+
+    label {
+        transform: translateZ(1000px);
+    }
+
+    .book {
+        transform: rotateY(-30deg) rotateX(2deg) rotateZ(0deg);
+    }
+
+    input.select {
+        display: none;
+    }
+
+    .details {
+        background-color: var(--pico-card-background-color);
+        display: flex;
+        position: absolute;
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: var(--pico-box-shadow);
+        transition-property: height, opacity;
+
+        overflow: hidden;
+
+
+        height: 0;
+        opacity: 0;
+    }
+}
+
+@media (max-width:800px) {
+    article {
+        flex-direction: column;
+
+        .details {
+            margin-top: 2rem;
+        }
+    }
+}
+
+
+
+.book:hover {
+    --book-open: 15deg;
+    transform: rotateY(-30deg) rotateX(2deg) rotateZ(10deg);
+}
+
+@media (min-width:801px) {
+
+    :is(html, body, main):has(input.select:checked) {
+        overflow: hidden;
+        padding: 0;
+        gap: 0;
+    }
+}
+
+
+
+article:has(input.select:checked) {
+    width: 100vw;
+    height: 100vh;
+
+    @media (max-width:800px) {
+        height: unset;
+
+    }
+
+    .book {
+        transform: rotateY(-300deg) rotateX(20deg) rotateZ(-40deg);
+        --book-open: 35deg;
+        --book-height: 30vw;
+
+        &:hover {
+            transform: rotateY(-300deg) rotateX(20deg) rotateZ(-35deg) rotateY(5deg);
+            --book-open: 45deg;
+        }
+    }
+
+    label:has(~* .turn:checked) {
+        .book {
+            transform: rotateY(-190deg) rotateX(-20deg) rotateZ(10deg);
+            --book-open: 0deg;
+
+            &:hover {
+                transform: rotateY(-230deg) rotateX(-15deg) rotateZ(7deg);
+
+            }
+        }
+    }
+
+
+
+
+    .details {
+        opacity: 1;
+        top: 0;
+        left: 50vw;
+        width: 50vw;
+        max-width: 700px;
+        height: 100vh;
+        z-index: 2;
+        overflow-y: auto;
+        overflow-x: hidden;
+
+
+        @media (max-width:800px) {
+
+            position: static;
+            width: 100%;
+            height: unset;
+            overflow: visible;
+            ;
+        }
+
+    }
+}
+
+article:has(~article input.select[type="checkbox"]:checked),
+article:has(input.select[type="checkbox"]:checked)~article {
+    width: 0;
+    height: 0;
+    opacity: 0;
+    padding: 0;
+
+}
+
+:has(>.buttons) {
+    container-type: inline-size;
+    container-name: buttonList;
+
+}
+
+.buttons {
+
+    display: flex;
+    flex-direction: row;
+
+    svg,
+    img {
+        height: 48px;
+
+    }
+
+
+    [role="button"],
+    button {
+        display: flex;
+        align-items: center;
+        justify-items: center;
+        justify-content: center;
+        gap: 4px;
+
+    }
+
+}
+
+@container buttonList (max-width: 480px) {
+    .buttons {
+        flex-direction: column;
+
+
+        >* {
+            border-top-left-radius: 0;
+            border-top-right-radius: 0;
+            border-bottom-left-radius: 0;
+            border-bottom-right-radius: 0;
+        }
+
+        >:first-child {
+            border-top-right-radius: var(--pico-border-radius);
+            border-top-left-radius: var(--pico-border-radius);
+        }
+
+
+
+        >:last-child {
+            border-bottom-right-radius: var(--pico-border-radius);
+            border-bottom-left-radius: var(--pico-border-radius);
+        }
+
+
+    }
+}
+
+
+.toc {
+    li {
+        display: flex;
+        flex-direction: column;
+        marker: none;
+
+        a {
+            align-self: start;
+        }
+
+        div {
+            margin-left: 1rem;
+            margin-right: 1rem;
+            display: flex;
+            gap: 4px 1rem;
+            flex-direction: row;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-items: center;
+            justify-content: start;
+            align-content: center;
+        }
+    }
+}
+
+label[role="button"]:has(input[type="checkbox"]) {
+    input {
+        display: none;
+    }
+
+    padding: 0;
+
+    svg {
+        width: 48px;
+        height: 48px;
+        transition-property: all;
+    }
+
+
+    &:has(input[type="checkbox"]:checked) {
+
+
+
+        &:is(button, [type=submit], [type=button], [role=button]),
+        [type=reset] {
+            --pico-background-color: transparent;
+            --pico-color: var(--pico-primary);
+            --pico-border-color: var(--pico-primary);
+        }
+
+        &:is(button, [type=submit], [type=button], [role=button]):is([aria-current]:not([aria-current=false]), :hover, :active, :focus),
+        [ype=reset]:is([aria-current]:not([aria-current=false]), :hover, :active, :focus) {
+            --pico-background-color: transparent;
+            --pico-color: var(--pico-primary-hover);
+            --pico-border-color: var(--pico-primary-hover);
+        }
+
+        &:is(button, [type=submit], [type=button], [role=button]).secondary,
+        [type=reset] {
+            --pico-color: var(--pico-secondary);
+            --pico-border-color: var(--pico-secondary);
+        }
+
+        &:is(button, [type=submit], [type=button], [role=button]).secondary:is([aria-current]:not([aria-current=false]), :hover, :active, :focus),
+        [type=reset]:is([aria-current]:not([aria-current=false]), :hover, :active, :focus) {
+            --pico-color: var(--pico-secondary-hover);
+            --pico-border-color: var(--pico-secondary-hover);
+        }
+
+        &:is(button, [type=submit], [type=button], [role=button]).contrast {
+            --pico-color: var(--pico-contrast);
+            --pico-border-color: var(--pico-contrast);
+        }
+
+        &:is(button, [type=submit], [type=button], [role=button]).contrast:is([aria-current]:not([aria-current=false]), :hover, :active, :focus) {
+            --pico-color: var(--pico-contrast-hover);
+            --pico-border-color: var(--pico-contrast-hover);
+        }
+
+    }
+
+}
