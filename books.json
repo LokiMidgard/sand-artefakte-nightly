@@ -1,0 +1,266 @@
+[
+  {
+    "title": "Sand-Artefakte",
+    "description": "Eine Geschichte über die Abenteuer von Fay und seinen Freunden in der Harschen Welt von Sand Artefakt.",
+    "author": "Patrick Kranz",
+    "coverPath": "00-aufbruch/_cover.jpg",
+    "coverRatio": 0.75,
+    "backPath": "00-aufbruch/_back.png",
+    "spinePath": "00-aufbruch/_spine.png",
+    "build": {
+      "alpha": {
+        "name": "alpha",
+        "epubPath": "00-aufbruch/alpha/sand-artefakt.epub",
+        "htmlPath": "00-aufbruch/alpha/story.htm",
+        "chapters": [
+          {
+            "title": "Prolog",
+            "lastModified": "2025-04-30T14:45:58.000+00:00",
+            "pageCount": 25,
+            "wordCount": 6569,
+            "readingTime": {
+              "6-7 Jahre": {
+                "min": 60,
+                "max": 124
+              },
+              "7-8 Jahre": {
+                "min": 45,
+                "max": 74
+              },
+              "8-9 Jahre": {
+                "min": 41,
+                "max": 62
+              },
+              "9-10 Jahre": {
+                "min": 37,
+                "max": 54
+              },
+              "10-11 Jahre": {
+                "min": 34,
+                "max": 48
+              },
+              "11-14 Jahre": {
+                "min": 33,
+                "max": 44
+              },
+              "Oberstufe": {
+                "min": 22,
+                "max": 33
+              },
+              "Erwachsener": {
+                "min": 19,
+                "max": 30
+              }
+            },
+            "htmlPath": "00-aufbruch/alpha/0000-Prolog.html"
+          },
+          {
+            "title": "Ankunft in der Hauptstadt",
+            "lastModified": "2025-04-24T17:02:27.000+00:00",
+            "pageCount": 11,
+            "wordCount": 3019,
+            "readingTime": {
+              "6-7 Jahre": {
+                "min": 28,
+                "max": 57
+              },
+              "7-8 Jahre": {
+                "min": 21,
+                "max": 34
+              },
+              "8-9 Jahre": {
+                "min": 19,
+                "max": 29
+              },
+              "9-10 Jahre": {
+                "min": 17,
+                "max": 25
+              },
+              "10-11 Jahre": {
+                "min": 16,
+                "max": 22
+              },
+              "11-14 Jahre": {
+                "min": 15,
+                "max": 21
+              },
+              "Oberstufe": {
+                "min": 11,
+                "max": 16
+              },
+              "Erwachsener": {
+                "min": 9,
+                "max": 14
+              }
+            },
+            "htmlPath": "00-aufbruch/alpha/0001-Ankunft in der Hauptstadt.html"
+          },
+          {
+            "title": "Die Unterstadt",
+            "lastModified": "2025-04-20T20:06:58.000+00:00",
+            "pageCount": 14,
+            "wordCount": 3790,
+            "readingTime": {
+              "6-7 Jahre": {
+                "min": 35,
+                "max": 72
+              },
+              "7-8 Jahre": {
+                "min": 26,
+                "max": 43
+              },
+              "8-9 Jahre": {
+                "min": 24,
+                "max": 36
+              },
+              "9-10 Jahre": {
+                "min": 22,
+                "max": 31
+              },
+              "10-11 Jahre": {
+                "min": 20,
+                "max": 28
+              },
+              "11-14 Jahre": {
+                "min": 19,
+                "max": 26
+              },
+              "Oberstufe": {
+                "min": 13,
+                "max": 19
+              },
+              "Erwachsener": {
+                "min": 11,
+                "max": 18
+              }
+            },
+            "htmlPath": "00-aufbruch/alpha/0002-Die Unterstadt.html"
+          },
+          {
+            "title": "Das Leben in der Stadt",
+            "lastModified": "2025-04-24T17:02:27.000+00:00",
+            "pageCount": 18,
+            "wordCount": 4818,
+            "readingTime": {
+              "6-7 Jahre": {
+                "min": 44,
+                "max": 91
+              },
+              "7-8 Jahre": {
+                "min": 33,
+                "max": 55
+              },
+              "8-9 Jahre": {
+                "min": 30,
+                "max": 46
+              },
+              "9-10 Jahre": {
+                "min": 27,
+                "max": 40
+              },
+              "10-11 Jahre": {
+                "min": 25,
+                "max": 35
+              },
+              "11-14 Jahre": {
+                "min": 24,
+                "max": 33
+              },
+              "Oberstufe": {
+                "min": 17,
+                "max": 25
+              },
+              "Erwachsener": {
+                "min": 14,
+                "max": 22
+              }
+            },
+            "htmlPath": "00-aufbruch/alpha/0003-Das Leben in der Stadt.html"
+          },
+          {
+            "title": "Das Leben auf der Straße",
+            "lastModified": "2025-04-24T17:02:27.000+00:00",
+            "pageCount": 12,
+            "wordCount": 3432,
+            "readingTime": {
+              "6-7 Jahre": {
+                "min": 31,
+                "max": 65
+              },
+              "7-8 Jahre": {
+                "min": 24,
+                "max": 39
+              },
+              "8-9 Jahre": {
+                "min": 22,
+                "max": 33
+              },
+              "9-10 Jahre": {
+                "min": 20,
+                "max": 28
+              },
+              "10-11 Jahre": {
+                "min": 18,
+                "max": 25
+              },
+              "11-14 Jahre": {
+                "min": 17,
+                "max": 23
+              },
+              "Oberstufe": {
+                "min": 12,
+                "max": 18
+              },
+              "Erwachsener": {
+                "min": 10,
+                "max": 16
+              }
+            },
+            "htmlPath": "00-aufbruch/alpha/0004-Das Leben auf der Straße.html"
+          },
+          {
+            "title": "Wasser im Überfluss",
+            "lastModified": "2025-04-24T17:02:27.000+00:00",
+            "pageCount": 18,
+            "wordCount": 4918,
+            "readingTime": {
+              "6-7 Jahre": {
+                "min": 45,
+                "max": 93
+              },
+              "7-8 Jahre": {
+                "min": 34,
+                "max": 56
+              },
+              "8-9 Jahre": {
+                "min": 31,
+                "max": 46
+              },
+              "9-10 Jahre": {
+                "min": 28,
+                "max": 40
+              },
+              "10-11 Jahre": {
+                "min": 26,
+                "max": 36
+              },
+              "11-14 Jahre": {
+                "min": 25,
+                "max": 33
+              },
+              "Oberstufe": {
+                "min": 17,
+                "max": 25
+              },
+              "Erwachsener": {
+                "min": 15,
+                "max": 23
+              }
+            },
+            "htmlPath": "00-aufbruch/alpha/0005-Wasser im Überfluss.html"
+          }
+        ]
+      }
+    }
+  }
+]
