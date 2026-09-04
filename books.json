@@ -1,0 +1,635 @@
+[
+  {
+    "title": "Sand-Artefakte",
+    "description": "Eine Geschichte über die Abenteuer von Fay und seinen Freunden in der Harschen Welt von Sand Artefakt.",
+    "author": "Patrick Kranz",
+    "coverPath": "00-aufbruch/_cover.jpg",
+    "coverRatio": 0.75,
+    "backPath": "00-aufbruch/_back.png",
+    "spinePath": "00-aufbruch/_spine.png",
+    "build": {
+      "alpha": {
+        "name": "alpha",
+        "epubPath": "00-aufbruch/alpha/sand-artefakt.epub",
+        "htmlPath": "00-aufbruch/alpha/story.htm",
+        "chapters": [
+          {
+            "title": "Prolog",
+            "lastModified": "2026-07-25T13:43:42.000+00:00",
+            "pageCount": 25,
+            "wordCount": 6564,
+            "readingTime": {
+              "6-7 Jahre": {
+                "min": 60,
+                "max": 124
+              },
+              "7-8 Jahre": {
+                "min": 45,
+                "max": 74
+              },
+              "8-9 Jahre": {
+                "min": 41,
+                "max": 62
+              },
+              "9-10 Jahre": {
+                "min": 37,
+                "max": 54
+              },
+              "10-11 Jahre": {
+                "min": 34,
+                "max": 48
+              },
+              "11-14 Jahre": {
+                "min": 33,
+                "max": 44
+              },
+              "Oberstufe": {
+                "min": 22,
+                "max": 33
+              },
+              "Erwachsener": {
+                "min": 19,
+                "max": 30
+              }
+            },
+            "htmlPath": "00-aufbruch/alpha/0000-Prolog.html"
+          },
+          {
+            "title": "Ankunft in der Hauptstadt",
+            "lastModified": "2026-08-23T12:42:17.000+00:00",
+            "pageCount": 11,
+            "wordCount": 3010,
+            "readingTime": {
+              "6-7 Jahre": {
+                "min": 28,
+                "max": 57
+              },
+              "7-8 Jahre": {
+                "min": 21,
+                "max": 34
+              },
+              "8-9 Jahre": {
+                "min": 19,
+                "max": 29
+              },
+              "9-10 Jahre": {
+                "min": 17,
+                "max": 25
+              },
+              "10-11 Jahre": {
+                "min": 16,
+                "max": 22
+              },
+              "11-14 Jahre": {
+                "min": 15,
+                "max": 21
+              },
+              "Oberstufe": {
+                "min": 11,
+                "max": 16
+              },
+              "Erwachsener": {
+                "min": 9,
+                "max": 14
+              }
+            },
+            "htmlPath": "00-aufbruch/alpha/0001-Ankunft in der Hauptstadt.html"
+          },
+          {
+            "title": "Die Unterstadt",
+            "lastModified": "2026-08-25T09:41:13.000+00:00",
+            "pageCount": 14,
+            "wordCount": 3793,
+            "readingTime": {
+              "6-7 Jahre": {
+                "min": 35,
+                "max": 72
+              },
+              "7-8 Jahre": {
+                "min": 26,
+                "max": 43
+              },
+              "8-9 Jahre": {
+                "min": 24,
+                "max": 36
+              },
+              "9-10 Jahre": {
+                "min": 22,
+                "max": 31
+              },
+              "10-11 Jahre": {
+                "min": 20,
+                "max": 28
+              },
+              "11-14 Jahre": {
+                "min": 19,
+                "max": 26
+              },
+              "Oberstufe": {
+                "min": 13,
+                "max": 19
+              },
+              "Erwachsener": {
+                "min": 11,
+                "max": 18
+              }
+            },
+            "htmlPath": "00-aufbruch/alpha/0002-Die Unterstadt.html"
+          },
+          {
+            "title": "Das Leben in der Stadt",
+            "lastModified": "2026-09-04T11:03:08.000+00:00",
+            "pageCount": 18,
+            "wordCount": 4793,
+            "readingTime": {
+              "6-7 Jahre": {
+                "min": 44,
+                "max": 91
+              },
+              "7-8 Jahre": {
+                "min": 33,
+                "max": 54
+              },
+              "8-9 Jahre": {
+                "min": 30,
+                "max": 45
+              },
+              "9-10 Jahre": {
+                "min": 27,
+                "max": 39
+              },
+              "10-11 Jahre": {
+                "min": 25,
+                "max": 35
+              },
+              "11-14 Jahre": {
+                "min": 24,
+                "max": 32
+              },
+              "Oberstufe": {
+                "min": 16,
+                "max": 24
+              },
+              "Erwachsener": {
+                "min": 14,
+                "max": 22
+              }
+            },
+            "htmlPath": "00-aufbruch/alpha/0003-Das Leben in der Stadt.html"
+          },
+          {
+            "title": "Das Leben auf der Straße",
+            "lastModified": "2025-04-24T17:02:27.000+00:00",
+            "pageCount": 12,
+            "wordCount": 3432,
+            "readingTime": {
+              "6-7 Jahre": {
+                "min": 31,
+                "max": 65
+              },
+              "7-8 Jahre": {
+                "min": 24,
+                "max": 39
+              },
+              "8-9 Jahre": {
+                "min": 22,
+                "max": 33
+              },
+              "9-10 Jahre": {
+                "min": 20,
+                "max": 28
+              },
+              "10-11 Jahre": {
+                "min": 18,
+                "max": 25
+              },
+              "11-14 Jahre": {
+                "min": 17,
+                "max": 23
+              },
+              "Oberstufe": {
+                "min": 12,
+                "max": 18
+              },
+              "Erwachsener": {
+                "min": 10,
+                "max": 16
+              }
+            },
+            "htmlPath": "00-aufbruch/alpha/0004-Das Leben auf der Straße.html"
+          },
+          {
+            "title": "Wasser im Überfluss",
+            "lastModified": "2025-06-24T09:50:29.000+00:00",
+            "pageCount": 18,
+            "wordCount": 4919,
+            "readingTime": {
+              "6-7 Jahre": {
+                "min": 45,
+                "max": 93
+              },
+              "7-8 Jahre": {
+                "min": 34,
+                "max": 56
+              },
+              "8-9 Jahre": {
+                "min": 31,
+                "max": 46
+              },
+              "9-10 Jahre": {
+                "min": 28,
+                "max": 40
+              },
+              "10-11 Jahre": {
+                "min": 26,
+                "max": 36
+              },
+              "11-14 Jahre": {
+                "min": 25,
+                "max": 33
+              },
+              "Oberstufe": {
+                "min": 17,
+                "max": 25
+              },
+              "Erwachsener": {
+                "min": 15,
+                "max": 23
+              }
+            },
+            "htmlPath": "00-aufbruch/alpha/0005-Wasser im Überfluss.html"
+          },
+          {
+            "title": "Der Tag war noch nicht vorbei",
+            "lastModified": "2026-04-16T16:06:23.000+00:00",
+            "pageCount": 9,
+            "wordCount": 2448,
+            "readingTime": {
+              "6-7 Jahre": {
+                "min": 23,
+                "max": 47
+              },
+              "7-8 Jahre": {
+                "min": 17,
+                "max": 28
+              },
+              "8-9 Jahre": {
+                "min": 16,
+                "max": 23
+              },
+              "9-10 Jahre": {
+                "min": 14,
+                "max": 20
+              },
+              "10-11 Jahre": {
+                "min": 13,
+                "max": 18
+              },
+              "11-14 Jahre": {
+                "min": 12,
+                "max": 17
+              },
+              "Oberstufe": {
+                "min": 9,
+                "max": 13
+              },
+              "Erwachsener": {
+                "min": 7,
+                "max": 12
+              }
+            },
+            "htmlPath": "00-aufbruch/alpha/0006-Der Tag war noch nicht vorbei.html"
+          },
+          {
+            "title": "Ein schlechter Morgen",
+            "lastModified": "2026-02-13T16:13:02.000+00:00",
+            "pageCount": 38,
+            "wordCount": 10706,
+            "readingTime": {
+              "6-7 Jahre": {
+                "min": 97,
+                "max": 202
+              },
+              "7-8 Jahre": {
+                "min": 72,
+                "max": 121
+              },
+              "8-9 Jahre": {
+                "min": 67,
+                "max": 101
+              },
+              "9-10 Jahre": {
+                "min": 60,
+                "max": 88
+              },
+              "10-11 Jahre": {
+                "min": 56,
+                "max": 78
+              },
+              "11-14 Jahre": {
+                "min": 53,
+                "max": 72
+              },
+              "Oberstufe": {
+                "min": 36,
+                "max": 54
+              },
+              "Erwachsener": {
+                "min": 31,
+                "max": 49
+              }
+            },
+            "htmlPath": "00-aufbruch/alpha/0007-Ein schlechter Morgen.html"
+          },
+          {
+            "title": "Untertauchen",
+            "lastModified": "2026-03-07T17:45:47.000+00:00",
+            "pageCount": 19,
+            "wordCount": 5109,
+            "readingTime": {
+              "6-7 Jahre": {
+                "min": 47,
+                "max": 97
+              },
+              "7-8 Jahre": {
+                "min": 35,
+                "max": 58
+              },
+              "8-9 Jahre": {
+                "min": 32,
+                "max": 48
+              },
+              "9-10 Jahre": {
+                "min": 29,
+                "max": 42
+              },
+              "10-11 Jahre": {
+                "min": 27,
+                "max": 37
+              },
+              "11-14 Jahre": {
+                "min": 26,
+                "max": 35
+              },
+              "Oberstufe": {
+                "min": 18,
+                "max": 26
+              },
+              "Erwachsener": {
+                "min": 15,
+                "max": 24
+              }
+            },
+            "htmlPath": "00-aufbruch/alpha/0008-Untertauchen.html"
+          },
+          {
+            "title": "Untertage",
+            "lastModified": "2026-08-14T12:11:04.000+00:00",
+            "pageCount": 12,
+            "wordCount": 3089,
+            "readingTime": {
+              "6-7 Jahre": {
+                "min": 28,
+                "max": 59
+              },
+              "7-8 Jahre": {
+                "min": 21,
+                "max": 35
+              },
+              "8-9 Jahre": {
+                "min": 20,
+                "max": 29
+              },
+              "9-10 Jahre": {
+                "min": 18,
+                "max": 26
+              },
+              "10-11 Jahre": {
+                "min": 16,
+                "max": 23
+              },
+              "11-14 Jahre": {
+                "min": 16,
+                "max": 21
+              },
+              "Oberstufe": {
+                "min": 11,
+                "max": 16
+              },
+              "Erwachsener": {
+                "min": 9,
+                "max": 15
+              }
+            },
+            "htmlPath": "00-aufbruch/alpha/0009-Untertage.html"
+          },
+          {
+            "title": "Der Hafen",
+            "lastModified": "2026-04-16T16:06:23.000+00:00",
+            "pageCount": 12,
+            "wordCount": 3304,
+            "readingTime": {
+              "6-7 Jahre": {
+                "min": 30,
+                "max": 63
+              },
+              "7-8 Jahre": {
+                "min": 23,
+                "max": 38
+              },
+              "8-9 Jahre": {
+                "min": 21,
+                "max": 31
+              },
+              "9-10 Jahre": {
+                "min": 19,
+                "max": 27
+              },
+              "10-11 Jahre": {
+                "min": 18,
+                "max": 24
+              },
+              "11-14 Jahre": {
+                "min": 17,
+                "max": 23
+              },
+              "Oberstufe": {
+                "min": 12,
+                "max": 17
+              },
+              "Erwachsener": {
+                "min": 10,
+                "max": 16
+              }
+            },
+            "htmlPath": "00-aufbruch/alpha/0010-Der Hafen.html"
+          },
+          {
+            "title": "Volle Fahrt voraus",
+            "lastModified": "2026-03-25T09:14:43.000+00:00",
+            "pageCount": 5,
+            "wordCount": 1284,
+            "readingTime": {
+              "6-7 Jahre": {
+                "min": 12,
+                "max": 25
+              },
+              "7-8 Jahre": {
+                "min": 9,
+                "max": 15
+              },
+              "8-9 Jahre": {
+                "min": 8,
+                "max": 12
+              },
+              "9-10 Jahre": {
+                "min": 8,
+                "max": 11
+              },
+              "10-11 Jahre": {
+                "min": 7,
+                "max": 10
+              },
+              "11-14 Jahre": {
+                "min": 7,
+                "max": 9
+              },
+              "Oberstufe": {
+                "min": 5,
+                "max": 7
+              },
+              "Erwachsener": {
+                "min": 4,
+                "max": 6
+              }
+            },
+            "htmlPath": "00-aufbruch/alpha/0011-Volle Fahrt voraus.html"
+          },
+          {
+            "title": "Dikē",
+            "lastModified": "2026-04-16T16:06:23.000+00:00",
+            "pageCount": 20,
+            "wordCount": 5520,
+            "readingTime": {
+              "6-7 Jahre": {
+                "min": 50,
+                "max": 105
+              },
+              "7-8 Jahre": {
+                "min": 38,
+                "max": 63
+              },
+              "8-9 Jahre": {
+                "min": 35,
+                "max": 52
+              },
+              "9-10 Jahre": {
+                "min": 31,
+                "max": 45
+              },
+              "10-11 Jahre": {
+                "min": 29,
+                "max": 40
+              },
+              "11-14 Jahre": {
+                "min": 28,
+                "max": 37
+              },
+              "Oberstufe": {
+                "min": 19,
+                "max": 28
+              },
+              "Erwachsener": {
+                "min": 16,
+                "max": 26
+              }
+            },
+            "htmlPath": "00-aufbruch/alpha/0012-Dikē.html"
+          },
+          {
+            "title": "Die Strafe",
+            "lastModified": "2026-08-18T17:27:41.000+00:00",
+            "pageCount": 19,
+            "wordCount": 5229,
+            "readingTime": {
+              "6-7 Jahre": {
+                "min": 48,
+                "max": 99
+              },
+              "7-8 Jahre": {
+                "min": 36,
+                "max": 59
+              },
+              "8-9 Jahre": {
+                "min": 33,
+                "max": 49
+              },
+              "9-10 Jahre": {
+                "min": 30,
+                "max": 43
+              },
+              "10-11 Jahre": {
+                "min": 27,
+                "max": 38
+              },
+              "11-14 Jahre": {
+                "min": 26,
+                "max": 35
+              },
+              "Oberstufe": {
+                "min": 18,
+                "max": 27
+              },
+              "Erwachsener": {
+                "min": 15,
+                "max": 24
+              }
+            },
+            "htmlPath": "00-aufbruch/alpha/0013-Die Strafe.html"
+          },
+          {
+            "title": "Atempause",
+            "lastModified": "2026-04-16T16:06:23.000+00:00",
+            "pageCount": 11,
+            "wordCount": 2954,
+            "readingTime": {
+              "6-7 Jahre": {
+                "min": 27,
+                "max": 56
+              },
+              "7-8 Jahre": {
+                "min": 20,
+                "max": 34
+              },
+              "8-9 Jahre": {
+                "min": 19,
+                "max": 28
+              },
+              "9-10 Jahre": {
+                "min": 17,
+                "max": 25
+              },
+              "10-11 Jahre": {
+                "min": 16,
+                "max": 22
+              },
+              "11-14 Jahre": {
+                "min": 15,
+                "max": 20
+              },
+              "Oberstufe": {
+                "min": 10,
+                "max": 15
+              },
+              "Erwachsener": {
+                "min": 9,
+                "max": 14
+              }
+            },
+            "htmlPath": "00-aufbruch/alpha/0014-Atempause.html"
+          }
+        ]
+      }
+    }
+  }
+]

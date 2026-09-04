@@ -1,0 +1,963 @@
+
+
+            @keyframes blinker {
+                50% {
+                    opacity: 0;
+                }
+            }
+
+            section > section {
+                padding:0;
+            }
+
+            .thought,
+            .speech{
+                color: green;
+                animation: blinker 1s linear infinite;
+            }
+            
+
+                .fay.thought *,
+                .fay.speech *,
+                .fay.thought,
+                .fay.speech
+                {
+                    color: #af6100;
+                    animation: none;
+                    }
+            
+
+                .nano.thought *,
+                .nano.speech *,
+                .nano.thought,
+                .nano.speech
+                {
+                    color: #00814f;
+                    animation: none;
+                    }
+            
+
+                .mindmachine.thought *,
+                .mindmachine.speech *,
+                .mindmachine.thought,
+                .mindmachine.speech
+                {
+                    color: #ea0d38;
+                    animation: none;
+                    }
+            
+
+                .dio.thought *,
+                .dio.speech *,
+                .dio.thought,
+                .dio.speech
+                {
+                    color: #6D22CB;
+                    animation: none;
+                    }
+            
+
+                .ren.thought *,
+                .ren.speech *,
+                .ren.thought,
+                .ren.speech
+                {
+                    color: #265AC9;
+                    animation: none;
+                    }
+            
+
+                .pho.thought *,
+                .pho.speech *,
+                .pho.thought,
+                .pho.speech
+                {
+                    color: #A918C8;
+                    animation: none;
+                    }
+            
+
+                .tia.thought *,
+                .tia.speech *,
+                .tia.thought,
+                .tia.speech
+                {
+                    color: #DF1587;
+                    animation: none;
+                    }
+            
+
+                .karlos.thought *,
+                .karlos.speech *,
+                .karlos.thought,
+                .karlos.speech
+                {
+                    color: #251611;
+                    animation: none;
+                    }
+            
+
+                .aris.thought *,
+                .aris.speech *,
+                .aris.thought,
+                .aris.speech
+                {
+                    color: #6d765f;
+                    animation: none;
+                    }
+            
+
+                .platyn.thought *,
+                .platyn.speech *,
+                .platyn.thought,
+                .platyn.speech
+                {
+                    color: #3a8200;
+                    animation: none;
+                    }
+            
+
+                .sthenelu.thought *,
+                .sthenelu.speech *,
+                .sthenelu.thought,
+                .sthenelu.speech
+                {
+                    color: #c5324f;
+                    animation: none;
+                    }
+            
+
+                .callyn.thought *,
+                .callyn.speech *,
+                .callyn.thought,
+                .callyn.speech
+                {
+                    color: #414a0d;
+                    animation: none;
+                    }
+            
+
+                .polydeukes.thought *,
+                .polydeukes.speech *,
+                .polydeukes.thought,
+                .polydeukes.speech
+                {
+                    color: #008710;
+                    animation: none;
+                    }
+            
+
+                .lyra.thought *,
+                .lyra.speech *,
+                .lyra.thought,
+                .lyra.speech
+                {
+                    color: #676bb5;
+                    animation: none;
+                    }
+            
+
+                .elektra.thought *,
+                .elektra.speech *,
+                .elektra.thought,
+                .elektra.speech
+                {
+                    color: #b154a0;
+                    animation: none;
+                    }
+            
+
+                .pandora.thought *,
+                .pandora.speech *,
+                .pandora.thought,
+                .pandora.speech
+                {
+                    color: #387a87;
+                    animation: none;
+                    }
+            
+
+                .adjutant.thought *,
+                .adjutant.speech *,
+                .adjutant.thought,
+                .adjutant.speech
+                {
+                    color: #0e4878;
+                    animation: none;
+                    }
+            
+
+                .iason.thought *,
+                .iason.speech *,
+                .iason.thought,
+                .iason.speech
+                {
+                    color: #d72d00;
+                    animation: none;
+                    }
+            
+
+                .general.thought *,
+                .general.speech *,
+                .general.thought,
+                .general.speech
+                {
+                    color: #007ea7;
+                    animation: none;
+                    }
+            
+
+                .philemon.thought *,
+                .philemon.speech *,
+                .philemon.thought,
+                .philemon.speech
+                {
+                    color: #9f646e;
+                    animation: none;
+                    }
+            
+
+                .clephys.thought *,
+                .clephys.speech *,
+                .clephys.thought,
+                .clephys.speech
+                {
+                    color: #0272ea;
+                    animation: none;
+                    }
+            
+
+                .böser-soldat.thought *,
+                .böser-soldat.speech *,
+                .böser-soldat.thought,
+                .böser-soldat.speech
+                {
+                    color: #004f26;
+                    animation: none;
+                    }
+            
+
+                .hermione.thought *,
+                .hermione.speech *,
+                .hermione.thought,
+                .hermione.speech
+                {
+                    color: #7f034d;
+                    animation: none;
+                    }
+            
+
+                .solon.thought *,
+                .solon.speech *,
+                .solon.thought,
+                .solon.speech
+                {
+                    color: #37843a;
+                    animation: none;
+                    }
+            
+
+                .alekos.thought *,
+                .alekos.speech *,
+                .alekos.thought,
+                .alekos.speech
+                {
+                    color: #221261;
+                    animation: none;
+                    }
+            
+
+                .priesterin.thought *,
+                .priesterin.speech *,
+                .priesterin.thought,
+                .priesterin.speech
+                {
+                    color: #767600;
+                    animation: none;
+                    }
+            
+
+                .zeuxis.thought *,
+                .zeuxis.speech *,
+                .zeuxis.thought,
+                .zeuxis.speech
+                {
+                    color: #a16334;
+                    animation: none;
+                    }
+            
+
+                .nikon.thought *,
+                .nikon.speech *,
+                .nikon.thought,
+                .nikon.speech
+                {
+                    color: #d300b7;
+                    animation: none;
+                    }
+            
+
+                .text.thought *,
+                .text.speech *,
+                .text.thought,
+                .text.speech
+                {
+                    color: #000000;
+                    animation: none;
+                    }
+            
+
+                .c0 .soldat1.thought *,
+                .c0 .soldat1.speech *,
+                .c0 .soldat1.thought,
+                .c0 .soldat1.speech
+                {
+                    color: #737434;
+                    animation: none;
+                    }
+            
+
+                .c0 .soldat2.thought *,
+                .c0 .soldat2.speech *,
+                .c0 .soldat2.thought,
+                .c0 .soldat2.speech
+                {
+                    color: #5e076d;
+                    animation: none;
+                    }
+            
+
+                .c0 .junge1.thought *,
+                .c0 .junge1.speech *,
+                .c0 .junge1.thought,
+                .c0 .junge1.speech
+                {
+                    color: #a12508;
+                    animation: none;
+                    }
+            
+
+                .c0 .junge2.thought *,
+                .c0 .junge2.speech *,
+                .c0 .junge2.thought,
+                .c0 .junge2.speech
+                {
+                    color: #180bcd;
+                    animation: none;
+                    }
+            
+
+                .c0 .tor.thought *,
+                .c0 .tor.speech *,
+                .c0 .tor.thought,
+                .c0 .tor.speech
+                {
+                    color: #a22403;
+                    animation: none;
+                    }
+            
+
+                .c0 .soldat4.thought *,
+                .c0 .soldat4.speech *,
+                .c0 .soldat4.thought,
+                .c0 .soldat4.speech
+                {
+                    color: #a12e04;
+                    animation: none;
+                    }
+            
+
+                .c0 .soldat5.thought *,
+                .c0 .soldat5.speech *,
+                .c0 .soldat5.thought,
+                .c0 .soldat5.speech
+                {
+                    color: #9851cb;
+                    animation: none;
+                    }
+            
+
+                .c3 .junge.thought *,
+                .c3 .junge.speech *,
+                .c3 .junge.thought,
+                .c3 .junge.speech
+                {
+                    color: #c101f8;
+                    animation: none;
+                    }
+            
+
+                .c4 .unbekannter1.thought *,
+                .c4 .unbekannter1.speech *,
+                .c4 .unbekannter1.thought,
+                .c4 .unbekannter1.speech
+                {
+                    color: #7d6a8c;
+                    animation: none;
+                    }
+            
+
+                .c7 .unbekannte.thought *,
+                .c7 .unbekannte.speech *,
+                .c7 .unbekannte.thought,
+                .c7 .unbekannte.speech
+                {
+                    color: #8a3d4d;
+                    animation: none;
+                    }
+            
+
+                .c9 .man1.thought *,
+                .c9 .man1.speech *,
+                .c9 .man1.thought,
+                .c9 .man1.speech
+                {
+                    color: #c64e29;
+                    animation: none;
+                    }
+            
+
+                .c9 .man2.thought *,
+                .c9 .man2.speech *,
+                .c9 .man2.thought,
+                .c9 .man2.speech
+                {
+                    color: #663668;
+                    animation: none;
+                    }
+            
+
+                .c10 .matrose.thought *,
+                .c10 .matrose.speech *,
+                .c10 .matrose.thought,
+                .c10 .matrose.speech
+                {
+                    color: #1a2c44;
+                    animation: none;
+                    }
+            
+
+                .c12 .wache.thought *,
+                .c12 .wache.speech *,
+                .c12 .wache.thought,
+                .c12 .wache.speech
+                {
+                    color: #7d4709;
+                    animation: none;
+                    }
+            
+
+                .c12 .ianson.thought *,
+                .c12 .ianson.speech *,
+                .c12 .ianson.thought,
+                .c12 .ianson.speech
+                {
+                    color: #ea0001;
+                    animation: none;
+                    }
+            
+
+                .c12 .verteidiger.thought *,
+                .c12 .verteidiger.speech *,
+                .c12 .verteidiger.thought,
+                .c12 .verteidiger.speech
+                {
+                    color: #02807b;
+                    animation: none;
+                    }
+            
+
+                .c12 .aristokrat.thought *,
+                .c12 .aristokrat.speech *,
+                .c12 .aristokrat.thought,
+                .c12 .aristokrat.speech
+                {
+                    color: #bf4a73;
+                    animation: none;
+                    }
+            
+
+                .c13 .wache.thought *,
+                .c13 .wache.speech *,
+                .c13 .wache.thought,
+                .c13 .wache.speech
+                {
+                    color: #d02baf;
+                    animation: none;
+                    }
+            
+
+                .c13 .besofski.thought *,
+                .c13 .besofski.speech *,
+                .c13 .besofski.thought,
+                .c13 .besofski.speech
+                {
+                    color: #b21c9c;
+                    animation: none;
+                    }
+            
+
+                .c13 .angreifer1.thought *,
+                .c13 .angreifer1.speech *,
+                .c13 .angreifer1.thought,
+                .c13 .angreifer1.speech
+                {
+                    color: #e10061;
+                    animation: none;
+                    }
+            
+
+                .c13 .angreifer2.thought *,
+                .c13 .angreifer2.speech *,
+                .c13 .angreifer2.thought,
+                .c13 .angreifer2.speech
+                {
+                    color: #a41393;
+                    animation: none;
+                    }
+            
+
+                .c13 .priesteroberstadt.thought *,
+                .c13 .priesteroberstadt.speech *,
+                .c13 .priesteroberstadt.thought,
+                .c13 .priesteroberstadt.speech
+                {
+                    color: #c537bc;
+                    animation: none;
+                    }
+            
+
+            @media (prefers-color-scheme: dark) {
+                
+
+                .fay.thought *,
+                .fay.speech *,
+                .fay.thought,
+                .fay.speech{
+                    color: #FFB118;
+                }
+            
+
+                .nano.thought *,
+                .nano.speech *,
+                .nano.thought,
+                .nano.speech{
+                    color: #13C795;
+                }
+            
+
+                .mindmachine.thought *,
+                .mindmachine.speech *,
+                .mindmachine.thought,
+                .mindmachine.speech{
+                    color: #fe214c;
+                }
+            
+
+                .dio.thought *,
+                .dio.speech *,
+                .dio.thought,
+                .dio.speech{
+                    color: #a95eff;
+                }
+            
+
+                .ren.thought *,
+                .ren.speech *,
+                .ren.thought,
+                .ren.speech{
+                    color: #4e82f1;
+                }
+            
+
+                .pho.thought *,
+                .pho.speech *,
+                .pho.thought,
+                .pho.speech{
+                    color: #d140f0;
+                }
+            
+
+                .tia.thought *,
+                .tia.speech *,
+                .tia.thought,
+                .tia.speech{
+                    color: #f3299b;
+                }
+            
+
+                .karlos.thought *,
+                .karlos.speech *,
+                .karlos.thought,
+                .karlos.speech{
+                    color: #93847f;
+                }
+            
+
+                .aris.thought *,
+                .aris.speech *,
+                .aris.thought,
+                .aris.speech{
+                    color: #d1dac3;
+                }
+            
+
+                .platyn.thought *,
+                .platyn.speech *,
+                .platyn.thought,
+                .platyn.speech{
+                    color: #76be16;
+                }
+            
+
+                .sthenelu.thought *,
+                .sthenelu.speech *,
+                .sthenelu.thought,
+                .sthenelu.speech{
+                    color: #e3506d;
+                }
+            
+
+                .callyn.thought *,
+                .callyn.speech *,
+                .callyn.thought,
+                .callyn.speech{
+                    color: #7d8649;
+                }
+            
+
+                .polydeukes.thought *,
+                .polydeukes.speech *,
+                .polydeukes.thought,
+                .polydeukes.speech{
+                    color: #13cd56;
+                }
+            
+
+                .lyra.thought *,
+                .lyra.speech *,
+                .lyra.thought,
+                .lyra.speech{
+                    color: #adb1fb;
+                }
+            
+
+                .elektra.thought *,
+                .elektra.speech *,
+                .elektra.thought,
+                .elektra.speech{
+                    color: #f79ae6;
+                }
+            
+
+                .pandora.thought *,
+                .pandora.speech *,
+                .pandora.thought,
+                .pandora.speech{
+                    color: #7ec0cd;
+                }
+            
+
+                .adjutant.thought *,
+                .adjutant.speech *,
+                .adjutant.thought,
+                .adjutant.speech{
+                    color: #4a84b4;
+                }
+            
+
+                .iason.thought *,
+                .iason.speech *,
+                .iason.thought,
+                .iason.speech{
+                    color: #ff5509;
+                }
+            
+
+                .general.thought *,
+                .general.speech *,
+                .general.thought,
+                .general.speech{
+                    color: #2fbae3;
+                }
+            
+
+                .philemon.thought *,
+                .philemon.speech *,
+                .philemon.thought,
+                .philemon.speech{
+                    color: #d196a0;
+                }
+            
+
+                .clephys.thought *,
+                .clephys.speech *,
+                .clephys.thought,
+                .clephys.speech{
+                    color: #1686fe;
+                }
+            
+
+                .böser-soldat.thought *,
+                .böser-soldat.speech *,
+                .böser-soldat.thought,
+                .böser-soldat.speech{
+                    color: #46956c;
+                }
+            
+
+                .hermione.thought *,
+                .hermione.speech *,
+                .hermione.thought,
+                .hermione.speech{
+                    color: #cf539d;
+                }
+            
+
+                .solon.thought *,
+                .solon.speech *,
+                .solon.thought,
+                .solon.speech{
+                    color: #a5f2a8;
+                }
+            
+
+                .alekos.thought *,
+                .alekos.speech *,
+                .alekos.thought,
+                .alekos.speech{
+                    color: #8676c5;
+                }
+            
+
+                .priesterin.thought *,
+                .priesterin.speech *,
+                .priesterin.thought,
+                .priesterin.speech{
+                    color: #f8f81d;
+                }
+            
+
+                .zeuxis.thought *,
+                .zeuxis.speech *,
+                .zeuxis.thought,
+                .zeuxis.speech{
+                    color: #c98b5c;
+                }
+            
+
+                .nikon.thought *,
+                .nikon.speech *,
+                .nikon.thought,
+                .nikon.speech{
+                    color: #fb24df;
+                }
+            
+
+                .text.thought *,
+                .text.speech *,
+                .text.thought,
+                .text.speech{
+                    color: #ffffff;
+                }
+            
+
+                .c0 .soldat1.thought *,
+                .c0 .soldat1.speech *,
+                .c0 .soldat1.thought,
+                .c0 .soldat1.speech{
+                    color: #a5a666;
+                }
+            
+
+                .c0 .soldat2.thought *,
+                .c0 .soldat2.speech *,
+                .c0 .soldat2.thought,
+                .c0 .soldat2.speech{
+                    color: #b861c7;
+                }
+            
+
+                .c0 .junge1.thought *,
+                .c0 .junge1.speech *,
+                .c0 .junge1.thought,
+                .c0 .junge1.speech{
+                    color: #d3573a;
+                }
+            
+
+                .c0 .junge2.thought *,
+                .c0 .junge2.speech *,
+                .c0 .junge2.thought,
+                .c0 .junge2.speech{
+                    color: #7c6fff;
+                }
+            
+
+                .c0 .tor.thought *,
+                .c0 .tor.speech *,
+                .c0 .tor.thought,
+                .c0 .tor.speech{
+                    color: #d45635;
+                }
+            
+
+                .c0 .soldat4.thought *,
+                .c0 .soldat4.speech *,
+                .c0 .soldat4.thought,
+                .c0 .soldat4.speech{
+                    color: #d36036;
+                }
+            
+
+                .c0 .soldat5.thought *,
+                .c0 .soldat5.speech *,
+                .c0 .soldat5.thought,
+                .c0 .soldat5.speech{
+                    color: #ca83fd;
+                }
+            
+
+                .c3 .junge.thought *,
+                .c3 .junge.speech *,
+                .c3 .junge.thought,
+                .c3 .junge.speech{
+                    color: #d515ff;
+                }
+            
+
+                .c4 .unbekannter1.thought *,
+                .c4 .unbekannter1.speech *,
+                .c4 .unbekannter1.thought,
+                .c4 .unbekannter1.speech{
+                    color: #b9a6c8;
+                }
+            
+
+                .c7 .unbekannte.thought *,
+                .c7 .unbekannte.speech *,
+                .c7 .unbekannte.thought,
+                .c7 .unbekannte.speech{
+                    color: #bc6f7f;
+                }
+            
+
+                .c9 .man1.thought *,
+                .c9 .man1.speech *,
+                .c9 .man1.thought,
+                .c9 .man1.speech{
+                    color: #ee7651;
+                }
+            
+
+                .c9 .man2.thought *,
+                .c9 .man2.speech *,
+                .c9 .man2.thought,
+                .c9 .man2.speech{
+                    color: #a272a4;
+                }
+            
+
+                .c10 .matrose.thought *,
+                .c10 .matrose.speech *,
+                .c10 .matrose.thought,
+                .c10 .matrose.speech{
+                    color: #74869e;
+                }
+            
+
+                .c12 .wache.thought *,
+                .c12 .wache.speech *,
+                .c12 .wache.thought,
+                .c12 .wache.speech{
+                    color: #af793b;
+                }
+            
+
+                .c12 .ianson.thought *,
+                .c12 .ianson.speech *,
+                .c12 .ianson.thought,
+                .c12 .ianson.speech{
+                    color: #fe0b15;
+                }
+            
+
+                .c12 .verteidiger.thought *,
+                .c12 .verteidiger.speech *,
+                .c12 .verteidiger.thought,
+                .c12 .verteidiger.speech{
+                    color: #34b2ad;
+                }
+            
+
+                .c12 .aristokrat.thought *,
+                .c12 .aristokrat.speech *,
+                .c12 .aristokrat.thought,
+                .c12 .aristokrat.speech{
+                    color: #fb86af;
+                }
+            
+
+                .c13 .wache.thought *,
+                .c13 .wache.speech *,
+                .c13 .wache.thought,
+                .c13 .wache.speech{
+                    color: #e43fc3;
+                }
+            
+
+                .c13 .besofski.thought *,
+                .c13 .besofski.speech *,
+                .c13 .besofski.thought,
+                .c13 .besofski.speech{
+                    color: #da44c4;
+                }
+            
+
+                .c13 .angreifer1.thought *,
+                .c13 .angreifer1.speech *,
+                .c13 .angreifer1.thought,
+                .c13 .angreifer1.speech{
+                    color: #f50f75;
+                }
+            
+
+                .c13 .angreifer2.thought *,
+                .c13 .angreifer2.speech *,
+                .c13 .angreifer2.thought,
+                .c13 .angreifer2.speech{
+                    color: #d645c5;
+                }
+            
+
+                .c13 .priesteroberstadt.thought *,
+                .c13 .priesteroberstadt.speech *,
+                .c13 .priesteroberstadt.thought,
+                .c13 .priesteroberstadt.speech{
+                    color: #f769ee;
+                }
+            
+            }
+
+            section.speech > *:first-child::before,
+            span.speech::before {
+                content: "»";
+            }
+            section.speech > *:last-child::after,
+            span.speech::after {
+                content: "«";
+            }
+            section.thought,
+            span.thought{
+                font-style: italic;
+            }
+            section.thought > *:first-child::before,
+            span.thought::before {
+                content: "›";
+                font-family: 'serif';
+            }
+            section.thought > *:last-child::after,
+            span.thought::after {
+                content: "‹";
+                font-family: 'serif';
+            }

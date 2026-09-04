@@ -1,0 +1,526 @@
+{
+  "adjutant": {
+    "colors": {
+      "light": "#0e4878",
+      "dark": "#4a84b4"
+    },
+    "fixed": false,
+    "stats": {
+      "dialogCount": 5,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::0",
+        "00-aufbruch::7"
+      ]
+    }
+  },
+  "alekos": {
+    "colors": {
+      "light": "#221261",
+      "dark": "#8676c5"
+    },
+    "fixed": false,
+    "stats": {
+      "dialogCount": 9,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::0"
+      ]
+    }
+  },
+  "aris": {
+    "colors": {
+      "light": "#6d765f",
+      "dark": "#d1dac3"
+    },
+    "fixed": false,
+    "stats": {
+      "dialogCount": 19,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::2",
+        "00-aufbruch::3",
+        "00-aufbruch::6",
+        "00-aufbruch::8"
+      ]
+    }
+  },
+  "böser-soldat": {
+    "colors": {
+      "light": "#004f26",
+      "dark": "#46956c"
+    },
+    "fixed": false,
+    "stats": {
+      "dialogCount": 1,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::7"
+      ]
+    }
+  },
+  "callyn": {
+    "colors": {
+      "light": "#414a0d",
+      "dark": "#7d8649"
+    },
+    "fixed": false,
+    "stats": {
+      "dialogCount": 25,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::17",
+        "00-aufbruch::18",
+        "00-aufbruch::26"
+      ]
+    }
+  },
+  "clephys": {
+    "colors": {
+      "light": "#0272ea",
+      "dark": "#1686fe"
+    },
+    "fixed": false,
+    "stats": {
+      "dialogCount": 20,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::19",
+        "00-aufbruch::20"
+      ]
+    }
+  },
+  "dio": {
+    "colors": {
+      "light": "#6D22CB",
+      "dark": "#a95eff"
+    },
+    "fixed": true,
+    "stats": {
+      "dialogCount": 53,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::13",
+        "00-aufbruch::14",
+        "00-aufbruch::2",
+        "00-aufbruch::3",
+        "00-aufbruch::4",
+        "00-aufbruch::5",
+        "00-aufbruch::7",
+        "00-aufbruch::8",
+        "00-aufbruch::9"
+      ]
+    }
+  },
+  "elektra": {
+    "colors": {
+      "light": "#b154a0",
+      "dark": "#f79ae6"
+    },
+    "fixed": false,
+    "stats": {
+      "dialogCount": 29,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::0",
+        "00-aufbruch::17",
+        "00-aufbruch::25",
+        "00-aufbruch::26"
+      ]
+    }
+  },
+  "fay": {
+    "colors": {
+      "light": "#af6100",
+      "dark": "#FFB118"
+    },
+    "fixed": true,
+    "stats": {
+      "dialogCount": 280,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::0",
+        "00-aufbruch::1",
+        "00-aufbruch::10",
+        "00-aufbruch::11",
+        "00-aufbruch::13",
+        "00-aufbruch::14",
+        "00-aufbruch::15",
+        "00-aufbruch::16",
+        "00-aufbruch::17",
+        "00-aufbruch::18",
+        "00-aufbruch::19",
+        "00-aufbruch::2",
+        "00-aufbruch::20",
+        "00-aufbruch::21",
+        "00-aufbruch::22",
+        "00-aufbruch::23",
+        "00-aufbruch::24",
+        "00-aufbruch::25",
+        "00-aufbruch::26",
+        "00-aufbruch::3",
+        "00-aufbruch::4",
+        "00-aufbruch::5",
+        "00-aufbruch::6",
+        "00-aufbruch::7",
+        "00-aufbruch::8",
+        "00-aufbruch::9"
+      ]
+    }
+  },
+  "general": {
+    "colors": {
+      "light": "#007ea7",
+      "dark": "#2fbae3"
+    },
+    "fixed": false,
+    "stats": {
+      "dialogCount": 16,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::0",
+        "00-aufbruch::1",
+        "00-aufbruch::24"
+      ]
+    }
+  },
+  "hermione": {
+    "colors": {
+      "light": "#7f034d",
+      "dark": "#cf539d"
+    },
+    "fixed": false,
+    "stats": {
+      "dialogCount": 6,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::14"
+      ]
+    }
+  },
+  "iason": {
+    "colors": {
+      "light": "#d72d00",
+      "dark": "#ff5509"
+    },
+    "fixed": false,
+    "stats": {
+      "dialogCount": 14,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::13",
+        "00-aufbruch::14"
+      ]
+    }
+  },
+  "karlos": {
+    "colors": {
+      "light": "#251611",
+      "dark": "#93847f"
+    },
+    "fixed": false,
+    "stats": {
+      "dialogCount": 78,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::11",
+        "00-aufbruch::15",
+        "00-aufbruch::16",
+        "00-aufbruch::17",
+        "00-aufbruch::19",
+        "00-aufbruch::20",
+        "00-aufbruch::21",
+        "00-aufbruch::22",
+        "00-aufbruch::23"
+      ]
+    }
+  },
+  "lyra": {
+    "colors": {
+      "light": "#676bb5",
+      "dark": "#adb1fb"
+    },
+    "fixed": false,
+    "stats": {
+      "dialogCount": 4,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::18",
+        "00-aufbruch::21"
+      ]
+    }
+  },
+  "mindmachine": {
+    "colors": {
+      "light": "#ea0d38",
+      "dark": "#fe214c"
+    },
+    "fixed": true,
+    "stats": {
+      "dialogCount": 0,
+      "books": [],
+      "chapters": []
+    }
+  },
+  "nano": {
+    "colors": {
+      "light": "#00814f",
+      "dark": "#13C795"
+    },
+    "fixed": true,
+    "stats": {
+      "dialogCount": 0,
+      "books": [],
+      "chapters": []
+    }
+  },
+  "nikon": {
+    "colors": {
+      "light": "#d300b7",
+      "dark": "#fb24df"
+    },
+    "fixed": false,
+    "stats": {
+      "dialogCount": 4,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::12"
+      ]
+    }
+  },
+  "pandora": {
+    "colors": {
+      "light": "#387a87",
+      "dark": "#7ec0cd"
+    },
+    "fixed": false,
+    "stats": {
+      "dialogCount": 24,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::19",
+        "00-aufbruch::20",
+        "00-aufbruch::21"
+      ]
+    }
+  },
+  "philemon": {
+    "colors": {
+      "light": "#9f646e",
+      "dark": "#d196a0"
+    },
+    "fixed": false,
+    "stats": {
+      "dialogCount": 1,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::21"
+      ]
+    }
+  },
+  "pho": {
+    "colors": {
+      "light": "#A918C8",
+      "dark": "#d140f0"
+    },
+    "fixed": true,
+    "stats": {
+      "dialogCount": 72,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::13",
+        "00-aufbruch::15",
+        "00-aufbruch::2",
+        "00-aufbruch::3",
+        "00-aufbruch::4",
+        "00-aufbruch::5",
+        "00-aufbruch::6",
+        "00-aufbruch::7",
+        "00-aufbruch::8",
+        "00-aufbruch::9"
+      ]
+    }
+  },
+  "platyn": {
+    "colors": {
+      "light": "#3a8200",
+      "dark": "#76be16"
+    },
+    "fixed": false,
+    "stats": {
+      "dialogCount": 7,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::18",
+        "00-aufbruch::21"
+      ]
+    }
+  },
+  "polydeukes": {
+    "colors": {
+      "light": "#008710",
+      "dark": "#13cd56"
+    },
+    "fixed": false,
+    "stats": {
+      "dialogCount": 2,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::18",
+        "00-aufbruch::21"
+      ]
+    }
+  },
+  "priesterin": {
+    "colors": {
+      "light": "#767600",
+      "dark": "#f8f81d"
+    },
+    "fixed": false,
+    "stats": {
+      "dialogCount": 4,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::0"
+      ]
+    }
+  },
+  "ren": {
+    "colors": {
+      "light": "#265AC9",
+      "dark": "#4e82f1"
+    },
+    "fixed": true,
+    "stats": {
+      "dialogCount": 83,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::10",
+        "00-aufbruch::13",
+        "00-aufbruch::14",
+        "00-aufbruch::26",
+        "00-aufbruch::6",
+        "00-aufbruch::7",
+        "00-aufbruch::8"
+      ]
+    }
+  },
+  "solon": {
+    "colors": {
+      "light": "#37843a",
+      "dark": "#a5f2a8"
+    },
+    "fixed": false,
+    "stats": {
+      "dialogCount": 9,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::26"
+      ]
+    }
+  },
+  "sthenelu": {
+    "colors": {
+      "light": "#c5324f",
+      "dark": "#e3506d"
+    },
+    "fixed": false,
+    "stats": {
+      "dialogCount": 8,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::18",
+        "00-aufbruch::21"
+      ]
+    }
+  },
+  "tia": {
+    "colors": {
+      "light": "#DF1587",
+      "dark": "#f3299b"
+    },
+    "fixed": true,
+    "stats": {
+      "dialogCount": 68,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::13",
+        "00-aufbruch::14",
+        "00-aufbruch::15",
+        "00-aufbruch::16",
+        "00-aufbruch::2",
+        "00-aufbruch::3",
+        "00-aufbruch::4",
+        "00-aufbruch::7",
+        "00-aufbruch::8",
+        "00-aufbruch::9"
+      ]
+    }
+  },
+  "zeuxis": {
+    "colors": {
+      "light": "#a16334",
+      "dark": "#c98b5c"
+    },
+    "fixed": false,
+    "stats": {
+      "dialogCount": 1,
+      "books": [
+        "00-aufbruch"
+      ],
+      "chapters": [
+        "00-aufbruch::21"
+      ]
+    }
+  }
+}
